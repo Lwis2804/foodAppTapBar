@@ -20,8 +20,8 @@
 		AA1A28782A5766D30045D60E /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1A28762A5766D30045D60E /* SearchResultViewController.xib */; };
 		AA1A287E2A5767340045D60E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A287C2A5767340045D60E /* SearchViewController.swift */; };
 		AA1A287F2A5767340045D60E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1A287D2A5767340045D60E /* SearchViewController.xib */; };
-		AA1A28822A576F6A0045D60E /* LoginTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A28802A576F6A0045D60E /* LoginTabViewController.swift */; };
-		AA1A28832A576F6A0045D60E /* LoginTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1A28812A576F6A0045D60E /* LoginTabViewController.xib */; };
+		AA3C4FC32A585B4900ACCBCB /* LoginTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3C4FC12A585B4900ACCBCB /* LoginTabViewController.swift */; };
+		AA3C4FC42A585B4900ACCBCB /* LoginTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3C4FC22A585B4900ACCBCB /* LoginTabViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +40,8 @@
 		AA1A28762A5766D30045D60E /* SearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
 		AA1A287C2A5767340045D60E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		AA1A287D2A5767340045D60E /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
-		AA1A28802A576F6A0045D60E /* LoginTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTabViewController.swift; sourceTree = "<group>"; };
-		AA1A28812A576F6A0045D60E /* LoginTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTabViewController.xib; sourceTree = "<group>"; };
+		AA3C4FC12A585B4900ACCBCB /* LoginTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTabViewController.swift; sourceTree = "<group>"; };
+		AA3C4FC22A585B4900ACCBCB /* LoginTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTabViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 		AA1A28662A5764E20045D60E /* TabBarLogin */ = {
 			isa = PBXGroup;
 			children = (
-				AA1A28802A576F6A0045D60E /* LoginTabViewController.swift */,
-				AA1A28812A576F6A0045D60E /* LoginTabViewController.xib */,
+				AA3C4FC12A585B4900ACCBCB /* LoginTabViewController.swift */,
+				AA3C4FC22A585B4900ACCBCB /* LoginTabViewController.xib */,
 			);
 			path = TabBarLogin;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 				AA1A285B2A57648A0045D60E /* Assets.xcassets in Resources */,
 				AA1A28782A5766D30045D60E /* SearchResultViewController.xib in Resources */,
 				AA1A28592A5764880045D60E /* Main.storyboard in Resources */,
-				AA1A28832A576F6A0045D60E /* LoginTabViewController.xib in Resources */,
+				AA3C4FC42A585B4900ACCBCB /* LoginTabViewController.xib in Resources */,
 				AA1A287F2A5767340045D60E /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +223,7 @@
 				AA1A28722A5766950045D60E /* OptionMenuViewController.swift in Sources */,
 				AA1A28692A5766110045D60E /* TabBarController.swift in Sources */,
 				AA1A28522A5764880045D60E /* AppDelegate.swift in Sources */,
-				AA1A28822A576F6A0045D60E /* LoginTabViewController.swift in Sources */,
+				AA3C4FC32A585B4900ACCBCB /* LoginTabViewController.swift in Sources */,
 				AA1A28542A5764880045D60E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
