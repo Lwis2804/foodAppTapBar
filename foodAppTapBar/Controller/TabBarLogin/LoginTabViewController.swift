@@ -8,22 +8,52 @@
 import UIKit
 
 class LoginTabViewController: UIViewController {
+    
+    //MARK: - OUTLETS
+    
+    @IBOutlet weak var imageLogin: UIImageView!
+    @IBOutlet weak var welcomeLblLogin: UILabel!
+    @IBOutlet weak var backgroundLogin: UIView!
+    @IBOutlet weak var userTxtLogin: UITextField!
+    @IBOutlet weak var passTxtLogin: UITextField!
+    @IBOutlet weak var btnLogin: UIButton!
+    @IBOutlet weak var lblLogin1: UILabel!
+    
+    
+    
+    
+    //MARK: - VARIABLES
+    
+    
+    
+    
+    
+    
 
+    //MARK: - LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
+    
+    
+    
+    
+    //MARK: - FUNCTIONS
+    
+    
 
 
-    /*
-    // MARK: - Navigation
+    //MARK: - ACTIONS
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func btnStar(_ sender: Any) {
+        pushItem(<#T##UINavigationItem#>, animated: true)
     }
-    */
-
 }
+
+
+    //MARK: - EXTENSIONS
+
+
+
+

@@ -11,6 +11,19 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchResultViewController" customModule="foodAppTapBar" customModuleProvider="target">
             <connections>
+                <outlet property="addButtonSR" destination="Sky-Dn-k3r" id="PGJ-jU-9mZ"/>
+                <outlet property="backgroundSearchR" destination="x7V-qs-ahH" id="baZ-As-7Tx"/>
+                <outlet property="clockImageSR" destination="w5e-7g-IYG" id="gDK-nM-y7D"/>
+                <outlet property="clockLblSR" destination="wIX-fE-IOU" id="z0o-j3-bhf"/>
+                <outlet property="collectionViewSR" destination="OVg-rd-lvs" id="KeO-cc-9UW"/>
+                <outlet property="descriptionLabelSR" destination="FYx-j1-3Hx" id="anL-mf-iVQ"/>
+                <outlet property="findLablSR" destination="wEy-Nm-Ohf" id="2iA-XK-t6j"/>
+                <outlet property="imgSearchResult" destination="xzo-kN-ibP" id="WYd-dx-IpZ"/>
+                <outlet property="lblImageSR" destination="ghc-ZQ-W0A" id="XvD-01-RNk"/>
+                <outlet property="lblPriceSR" destination="p6T-IK-QQt" id="Iuf-II-65W"/>
+                <outlet property="lblSearchResult" destination="EhK-fd-JeD" id="b9y-Qd-vEa"/>
+                <outlet property="lblStars" destination="Fx5-EH-cdf" id="XQs-9z-7zr"/>
+                <outlet property="starImageSR" destination="6rg-GC-EEG" id="JCM-4e-SFc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

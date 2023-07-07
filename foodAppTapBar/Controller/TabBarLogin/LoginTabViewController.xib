@@ -11,7 +11,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginTabViewController" customModule="foodAppTapBar" customModuleProvider="target">
             <connections>
+                <outlet property="backgroundLogin" destination="twb-ds-3JC" id="XRV-h9-Jhs"/>
+                <outlet property="btnLogin" destination="llW-Kb-1uQ" id="iDl-z7-ZDc"/>
+                <outlet property="imageLogin" destination="Oq5-9l-gqv" id="7zv-qh-a8O"/>
+                <outlet property="lblLogin1" destination="Ph4-DW-yUa" id="M4f-Gh-ctG"/>
+                <outlet property="passTxtLogin" destination="Ko0-eh-zcb" id="gfF-MT-yGN"/>
+                <outlet property="userTxtLogin" destination="f3g-i2-VH6" id="Ivu-0b-2rY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="welcomeLblLogin" destination="LBa-4b-JZc" id="q7k-kj-HEg"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -93,6 +100,9 @@
                             </fragment>
                         </attributedString>
                     </state>
+                    <connections>
+                        <action selector="btnStar:" destination="-1" eventType="touchUpInside" id="Ugr-JR-Ymg"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph4-DW-yUa">
                     <rect key="frame" x="16" y="705" width="361" height="32"/>
