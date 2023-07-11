@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJ5-IB-tla">
-                    <rect key="frame" x="16" y="151" width="361" height="28"/>
+                    <rect key="frame" x="16" y="171" width="361" height="28"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="28" id="GxQ-Jr-b6P"/>
                     </constraints>
@@ -35,7 +35,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfp-vG-wmr">
-                    <rect key="frame" x="0.0" y="60" width="393" height="68"/>
+                    <rect key="frame" x="0.0" y="80" width="393" height="68"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k2b-PX-z0Y">
                             <rect key="frame" x="16" y="16" width="361" height="34"/>
@@ -55,7 +55,7 @@
                     </constraints>
                 </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="KYJ-Og-9fd">
-                    <rect key="frame" x="16" y="193" width="361" height="208"/>
+                    <rect key="frame" x="16" y="213" width="361" height="208"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="208" id="FHS-10-YYG"/>
@@ -69,7 +69,7 @@
                     <cells/>
                 </collectionView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top 3 popular bundles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jm5-Rc-ACI">
-                    <rect key="frame" x="16" y="425" width="361" height="28"/>
+                    <rect key="frame" x="16" y="445" width="361" height="28"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="28" id="r87-QY-ap0"/>
                     </constraints>
@@ -78,7 +78,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="r53-Q7-kWb">
-                    <rect key="frame" x="16" y="467" width="361" height="340"/>
+                    <rect key="frame" x="16" y="487" width="361" height="340"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="340" id="T6p-5t-Jo9"/>
@@ -93,7 +93,7 @@
                 <constraint firstItem="mfp-vG-wmr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Iib-UT-YOU"/>
                 <constraint firstItem="r53-Q7-kWb" firstAttribute="top" secondItem="jm5-Rc-ACI" secondAttribute="bottom" constant="14" id="NTR-uF-YCh"/>
                 <constraint firstItem="r53-Q7-kWb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="RRm-yj-vl6"/>
-                <constraint firstItem="mfp-vG-wmr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="Sc1-NI-MwF"/>
+                <constraint firstItem="mfp-vG-wmr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="Sc1-NI-MwF"/>
                 <constraint firstItem="KYJ-Og-9fd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="Tyq-oD-zf9"/>
                 <constraint firstAttribute="trailing" secondItem="JJ5-IB-tla" secondAttribute="trailing" constant="16" id="ZER-qb-eLZ"/>
                 <constraint firstItem="jm5-Rc-ACI" firstAttribute="top" secondItem="KYJ-Og-9fd" secondAttribute="bottom" constant="24" id="dkn-sG-DdG"/>

@@ -17,10 +17,11 @@ class TabBarControllerViewController: UITabBarController {
            
             self.createNavCont(for: OptionMenuViewController(), title: "First Tap Bar", image: UIImage(systemName: "house") ?? UIImage()),
             self.createNavCont(for: SearchResultViewController(), title: "Second Tap Bar", image: UIImage(systemName: "house") ?? UIImage()),
+            self.createNavCont(for: SearchResultViewController(), title: "Second Tap Bar", image: UIImage(systemName: "house") ?? UIImage())
+            
         ]
         
     }
-    
     func createNavCont(for mainViewController: UIViewController, title: String, image: UIImage ) -> UIViewController {
         
         let navController = UINavigationController(rootViewController: mainViewController)
