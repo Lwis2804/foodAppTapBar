@@ -27,14 +27,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ruler.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Oq5-9l-gqv">
-                    <rect key="frame" x="0.0" y="209.99999999999997" width="393" height="112.6666666666667"/>
+                    <rect key="frame" x="0.0" y="151" width="393" height="112.66666666666667"/>
                     <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="122" id="8Aa-oz-NlV"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBa-4b-JZc">
-                    <rect key="frame" x="16" y="351" width="361" height="34"/>
+                    <rect key="frame" x="16" y="292" width="361" height="34"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="34" id="fb6-4C-bDc"/>
                     </constraints>
@@ -50,7 +50,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="twb-ds-3JC">
-                    <rect key="frame" x="0.0" y="409" width="393" height="160"/>
+                    <rect key="frame" x="0.0" y="350" width="393" height="160"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="leading" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" placeholder="  Steve_Donuto@gmail.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-i2-VH6">
                             <rect key="frame" x="16" y="16" width="361" height="56"/>
@@ -82,7 +82,7 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="llW-Kb-1uQ">
-                    <rect key="frame" x="16" y="617" width="361" height="56"/>
+                    <rect key="frame" x="16" y="558" width="361" height="56"/>
                     <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="56" id="jND-TX-Nlt"/>
@@ -105,7 +105,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph4-DW-yUa">
-                    <rect key="frame" x="16" y="705" width="361" height="32"/>
+                    <rect key="frame" x="16" y="646" width="361" height="32"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="32" id="kPA-IL-8if"/>
                     </constraints>
