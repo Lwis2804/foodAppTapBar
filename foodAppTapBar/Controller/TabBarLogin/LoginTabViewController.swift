@@ -82,7 +82,7 @@ class LoginTabViewController: UIViewController {
     //MARK: - ACTIONS
 
     @IBAction func btnStar(_ sender: Any) {
-        let pushViewCont = OptionMenuViewController()
+        let pushViewCont = TabBarControllerViewController()
         
         MyPass = passTxtLogin.text ?? "No hay Pass"
         MyUser = userTxtLogin.text ?? "no hay user"
