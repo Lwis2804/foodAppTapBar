@@ -7,8 +7,20 @@
 
 import UIKit
 
-class optionMenuTableViewCell: UITableViewCell {
+class optionMnTableViewCell: UITableViewCell {
+    
+    
+    //MARK: - OUTLETS
 
+ 
+    @IBOutlet weak var backgroundImage: UIImageView!
+    
+    @IBOutlet weak var lblTitleTableCell: UIImageView!
+    
+    
+  
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

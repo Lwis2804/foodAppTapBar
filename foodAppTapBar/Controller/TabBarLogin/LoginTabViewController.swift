@@ -20,7 +20,12 @@ class LoginTabViewController: UIViewController {
     @IBOutlet weak var passTxtLogin: UITextField!{
         didSet{ self.passTxtLogin.delegate = self }
     }
-    @IBOutlet weak var btnLogin: UIButton!
+    @IBOutlet weak var btnLogin: UIButton!{
+        didSet{
+            self.btnLogin.layer.cornerRadius = 10
+            self.btnLogin.layer.borderWidth = 1
+        }
+    }
     @IBOutlet weak var lblLogin1: UILabel!
     
     

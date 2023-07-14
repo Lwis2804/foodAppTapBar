@@ -49,11 +49,11 @@ class OptionMenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Usuario"
-    //    setUpCollectonview()
-     //   setUpTable()
-    //   setUpSecondCollectionView()
-    //    arrCategories = hardCategories.returnDataOnCategoriesToFirstCV()
-    //    SarrCategories = hardCategories.returnDataOnCategoriesToSecndCV()
+       setUpCollectonview()
+       setUpTable()
+       setUpSecondCollectionView()
+       arrCategories = hardCategories.returnDataOnCategoriesToFirstCV()
+       SarrCategories = hardCategories.returnDataOnCategoriesToSecndCV()
 
     }
 
@@ -77,10 +77,10 @@ class OptionMenuViewController: UIViewController {
     }
     
     func setUpTable(){
-        self.tableView.delegate = self
-        self.tableView.dataSource = self
-        self.tableView.tag = 321
-        self.tableView.register(optionMenuTableViewCell.nib, forCellReuseIdentifier: optionMenuTableViewCell.identifier)
+        self.firstTableView.delegate = self
+        self.firstTableView.dataSource = self
+        self.firstTableView.tag = 321
+        self.firstTableView.register(optionMnTableViewCell.nib, forCellReuseIdentifier: optionMnTableViewCell.identifier)
     }
     
     
@@ -185,7 +185,7 @@ extension OptionMenuViewController: UITableViewDataSource & UITableViewDelegate 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let tableCell = tableView.dequeueReusableCell(withIdentifier: firstTableView.identifier, for: indexPath) as? firstTableView ?? firstTableView
+        let tableCell = tableView.dequeueReusableCell(withIdentifier: optionMnTableViewCell.identifier, for: indexPath) as? optionMnTableViewCell ?? optionMnTableViewCell()
         
         tableCell.lblTitleTableCell.text = arrTable[indexPath.row]
         tableCell.backgroundImage.image = UIImage(named: arrTableImg[indexPath.row])
