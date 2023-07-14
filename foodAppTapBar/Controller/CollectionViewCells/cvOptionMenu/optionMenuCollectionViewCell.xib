@@ -155,6 +155,15 @@
                 <constraint firstAttribute="trailing" secondItem="H1L-LN-nFV" secondAttribute="trailing" constant="16" id="ho4-oP-rAx"/>
                 <constraint firstAttribute="trailing" secondItem="Zhy-Md-YQ4" secondAttribute="trailing" id="lSP-F1-TvZ"/>
             </constraints>
+            <connections>
+                <outlet property="imageFirst" destination="o5u-e4-Ll3" id="19d-j0-zXy"/>
+                <outlet property="imageFourth" destination="did-gA-V6d" id="r47-Y8-hZA"/>
+                <outlet property="imageSecond" destination="stP-Mv-SuK" id="Tej-hx-hEt"/>
+                <outlet property="imageThird" destination="5cc-8f-wJy" id="jfw-mH-zGA"/>
+                <outlet property="lblStars" destination="k87-C7-E1i" id="30k-dY-meL"/>
+                <outlet property="lblTime" destination="frI-5H-goN" id="78l-kd-Agb"/>
+                <outlet property="lblTitle" destination="O1I-0E-IrN" id="fXc-uk-7VW"/>
+            </connections>
             <point key="canvasLocation" x="129.7709923664122" y="-12.67605633802817"/>
         </collectionViewCell>
     </objects>

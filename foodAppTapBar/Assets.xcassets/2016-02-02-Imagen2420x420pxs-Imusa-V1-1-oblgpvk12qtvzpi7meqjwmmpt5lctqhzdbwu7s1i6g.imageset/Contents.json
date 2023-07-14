@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "2016-02-02-Imagen2420x420pxs-Imusa-V1-1-oblgpvk12qtvzpi7meqjwmmpt5lctqhzdbwu7s1i6g.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

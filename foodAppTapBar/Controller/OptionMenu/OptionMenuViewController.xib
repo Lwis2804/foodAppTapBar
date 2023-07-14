@@ -12,13 +12,13 @@
             <connections>
                 <outlet property="backfrundSearch" destination="2hr-gb-jba" id="JT5-mv-ZaC"/>
                 <outlet property="btnSearchCat" destination="At9-cH-ZhA" id="afg-Hz-R92"/>
+                <outlet property="firstTableView" destination="tBe-F9-xks" id="lVw-tE-ogq"/>
                 <outlet property="fisrtCollectionView" destination="Oyz-wi-jX6" id="qr5-pC-bSk"/>
                 <outlet property="generlaBackground" destination="tMx-Mm-iVX" id="o8d-bN-WNr"/>
                 <outlet property="peolpeNearbyLbl" destination="QEk-Hm-MPa" id="svf-ng-cXx"/>
                 <outlet property="recentUserLbl" destination="DBn-a5-rMx" id="It0-ip-NQY"/>
                 <outlet property="searchBar" destination="ygE-P8-CDZ" id="SRL-mP-xSN"/>
                 <outlet property="secondCollectionView" destination="phC-xJ-jOv" id="gI5-AM-TER"/>
-                <outlet property="tableView" destination="tBe-F9-xks" id="iPL-Gd-VZk"/>
                 <outlet property="top3Bundle" destination="CMV-Rc-rFs" id="mIT-YS-1qw"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

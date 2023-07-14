@@ -11,6 +11,23 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchResultViewController" customModule="foodAppTapBar" customModuleProvider="target">
             <connections>
+                <outlet property="backgroundBtn" destination="MJl-0J-j8l" id="eKz-o6-OVf"/>
+                <outlet property="backgroundPrice" destination="4dg-mN-8V8" id="tpb-tb-cRB"/>
+                <outlet property="btnAddShopping" destination="b8h-sn-2EA" id="eoi-vS-1PJ"/>
+                <outlet property="btnSaveWish" destination="iMm-l5-Fah" id="e4p-3m-LRW"/>
+                <outlet property="collectionViewSearch" destination="cDc-pG-eE8" id="T61-nm-G5c"/>
+                <outlet property="descriptionLbl" destination="cJU-N1-dvh" id="rZw-Q6-Vxj"/>
+                <outlet property="findItInBundleLbl" destination="Or5-w6-lqd" id="9iD-DX-Cqv"/>
+                <outlet property="imgAddShopping" destination="rsM-lb-qpA" id="P0e-0t-sEE"/>
+                <outlet property="imgClock" destination="BWx-LX-dxb" id="LgW-h2-GMa"/>
+                <outlet property="imgSaveWish" destination="92s-zh-O1t" id="JSP-Pz-hdl"/>
+                <outlet property="imgSearchResult" destination="k2c-fx-D2R" id="sy8-Iz-4Xw"/>
+                <outlet property="imgStar" destination="dg2-lM-loh" id="MZR-ID-uoZ"/>
+                <outlet property="imgTitlLbl" destination="Xo5-95-cE1" id="HMD-jn-AeG"/>
+                <outlet property="lblPrice" destination="0Xw-ZO-liP" id="iiO-fN-cTW"/>
+                <outlet property="searchResultLbl" destination="ecD-Bq-7WM" id="7tR-R3-NlQ"/>
+                <outlet property="starLbl" destination="qo2-A4-vNL" id="raa-Uq-Jx9"/>
+                <outlet property="timeLbl" destination="t4u-ro-siW" id="ibH-M9-l4B"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

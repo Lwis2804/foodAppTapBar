@@ -20,6 +20,8 @@
 		AA1A28782A5766D30045D60E /* SearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1A28762A5766D30045D60E /* SearchResultViewController.xib */; };
 		AA1A287E2A5767340045D60E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A287C2A5767340045D60E /* SearchViewController.swift */; };
 		AA1A287F2A5767340045D60E /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA1A287D2A5767340045D60E /* SearchViewController.xib */; };
+		AA21BBA32A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA21BBA12A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.swift */; };
+		AA21BBA42A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA21BBA22A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.xib */; };
 		AA3C4FC32A585B4900ACCBCB /* LoginTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3C4FC12A585B4900ACCBCB /* LoginTabViewController.swift */; };
 		AA3C4FC42A585B4900ACCBCB /* LoginTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3C4FC22A585B4900ACCBCB /* LoginTabViewController.xib */; };
 		AA4B8E192A5E04D0001F0C10 /* CategoriesHard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4B8E182A5E04D0001F0C10 /* CategoriesHard.swift */; };
@@ -47,6 +49,8 @@
 		AA1A28762A5766D30045D60E /* SearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultViewController.xib; sourceTree = "<group>"; };
 		AA1A287C2A5767340045D60E /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		AA1A287D2A5767340045D60E /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		AA21BBA12A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sndOptionMenCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA21BBA22A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sndOptionMenCollectionViewCell.xib; sourceTree = "<group>"; };
 		AA3C4FC12A585B4900ACCBCB /* LoginTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTabViewController.swift; sourceTree = "<group>"; };
 		AA3C4FC22A585B4900ACCBCB /* LoginTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTabViewController.xib; sourceTree = "<group>"; };
 		AA4B8E182A5E04D0001F0C10 /* CategoriesHard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesHard.swift; sourceTree = "<group>"; };
@@ -161,6 +165,15 @@
 			path = SearchView;
 			sourceTree = "<group>";
 		};
+		AA21BBA02A6197E900CDE7F2 /* sndCvCell */ = {
+			isa = PBXGroup;
+			children = (
+				AA21BBA12A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.swift */,
+				AA21BBA22A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.xib */,
+			);
+			path = sndCvCell;
+			sourceTree = "<group>";
+		};
 		AA4B8E172A5E04B6001F0C10 /* ModelData */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +201,7 @@
 		AA4B8E202A5E0641001F0C10 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				AA21BBA02A6197E900CDE7F2 /* sndCvCell */,
 				AA4B8E212A5E0654001F0C10 /* cvOptionMenu */,
 			);
 			path = CollectionViewCells;
@@ -283,6 +297,7 @@
 				AA1A28782A5766D30045D60E /* SearchResultViewController.xib in Resources */,
 				AA4B8E252A5E06BB001F0C10 /* optionMenuCollectionViewCell.xib in Resources */,
 				AA1A28592A5764880045D60E /* Main.storyboard in Resources */,
+				AA21BBA42A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.xib in Resources */,
 				AA3C4FC42A585B4900ACCBCB /* LoginTabViewController.xib in Resources */,
 				AA1A287F2A5767340045D60E /* SearchViewController.xib in Resources */,
 				AA4B8E2B2A5E0847001F0C10 /* optionMenuTableViewCell.xib in Resources */,
@@ -296,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA21BBA32A61983D00CDE7F2 /* sndOptionMenCollectionViewCell.swift in Sources */,
 				AA1A28562A5764880045D60E /* ViewController.swift in Sources */,
 				AA1A28772A5766D30045D60E /* SearchResultViewController.swift in Sources */,
 				AA1A287E2A5767340045D60E /* SearchViewController.swift in Sources */,
