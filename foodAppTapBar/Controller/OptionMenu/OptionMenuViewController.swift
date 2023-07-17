@@ -80,7 +80,7 @@ class OptionMenuViewController: UIViewController {
         self.firstTableView.delegate = self
         self.firstTableView.dataSource = self
         self.firstTableView.tag = 321
-        self.firstTableView.register(optionMnTableViewCell.nib, forCellReuseIdentifier: optionMnTableViewCell.identifier)
+        self.firstTableView.register(optnMenTableViewCell.nib, forCellReuseIdentifier: optnMenTableViewCell.identifier)
     }
     
     
@@ -185,10 +185,10 @@ extension OptionMenuViewController: UITableViewDataSource & UITableViewDelegate 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let tableCell = tableView.dequeueReusableCell(withIdentifier: optionMnTableViewCell.identifier, for: indexPath) as? optionMnTableViewCell ?? optionMnTableViewCell()
+        let tableCell = tableView.dequeueReusableCell(withIdentifier: optnMenTableViewCell.identifier, for: indexPath) as? optnMenTableViewCell ?? optnMenTableViewCell()
         
-        tableCell.lblTitleTableCell.text = arrTable[indexPath.row]
-        tableCell.backgroundImage.image = UIImage(named: arrTableImg[indexPath.row])
+        tableCell.lblTitleCell.text = arrTable[indexPath.row]
+        tableCell.imgPplCell.image = UIImage(named: arrTableImg[indexPath.row])
         tableCell.accessoryType = .disclosureIndicator
         return tableCell
     }

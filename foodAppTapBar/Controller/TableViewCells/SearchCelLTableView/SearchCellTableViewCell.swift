@@ -1,26 +1,19 @@
 //
-//  optionMenuTableViewCell.swift
+//  SearchCellTableViewCell.swift
 //  foodAppTapBar
 //
-//  Created by LUIS GONZALEZ on 11/07/23.
+//  Created by LUIS GONZALEZ on 17/07/23.
 //
 
 import UIKit
 
-class optionMnTableViewCell: UITableViewCell {
-    
-    
-    //MARK: - OUTLETS
+class SearchCellTableViewCell: UITableViewCell {
 
- 
-    @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var scTitle: UILabel!
+    @IBOutlet weak var scClockImg: UIImageView!
+    @IBOutlet weak var scLowBar: UIImageView!
     
-    @IBOutlet weak var lblTitleTableCell: UIImageView!
-    
-    
-  
-    
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

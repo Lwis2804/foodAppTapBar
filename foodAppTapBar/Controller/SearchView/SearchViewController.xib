@@ -11,8 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="foodAppTapBar" customModuleProvider="target">
             <connections>
-                <outlet property="lblSearchTitle" destination="vHu-eD-JEQ" id="JsC-WV-OWO"/>
-                <outlet property="tableViewSearch" destination="cJp-1B-st4" id="haP-dP-6ui"/>
+                <outlet property="svTable" destination="cJp-1B-st4" id="7Ub-Cv-zVc"/>
+                <outlet property="svTitleLbl" destination="vHu-eD-JEQ" id="sSQ-eE-ydL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,7 +22,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search Result Detail " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHu-eD-JEQ">
-                    <rect key="frame" x="56" y="99" width="281" height="25"/>
+                    <rect key="frame" x="56" y="40" width="281" height="25"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="VDk-Ns-670"/>
                     </constraints>
@@ -31,7 +31,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cJp-1B-st4">
-                    <rect key="frame" x="0.0" y="140" width="393" height="586"/>
+                    <rect key="frame" x="0.0" y="81" width="393" height="586"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="586" id="neg-wp-Swk"/>
                     </constraints>
