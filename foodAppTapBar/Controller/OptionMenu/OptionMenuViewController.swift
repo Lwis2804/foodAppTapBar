@@ -73,7 +73,7 @@ class OptionMenuViewController: UIViewController {
         self.secondCollectionView.delegate = self
         self.secondCollectionView.dataSource = self
         self.secondCollectionView.tag = 284
-        self.secondCollectionView.register(sndOptionMenCollectionViewCell.nib, forCellWithReuseIdentifier: optionMenuCollectionViewCell.identifier)
+        self.secondCollectionView.register(sndOptionMenCollectionViewCell.nib, forCellWithReuseIdentifier: sndOptionMenCollectionViewCell.identifier)
     }
     
     func setUpTable(){
@@ -85,8 +85,16 @@ class OptionMenuViewController: UIViewController {
     
     
     
+    //MARK: - NAVIGATION
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let viewControllerDestination = segue.destination as? SearchResultViewController{
+            print(sdStrImage)
+            print(sdStringImageTitle)
+            viewControllerDestination.strImg = sdStrImage
+            viewControllerDestination.strImageTitle = sdStringImageTitle
+        }
+    }
     
     
     
@@ -129,11 +137,11 @@ extension OptionMenuViewController: UICollectionViewDataSource {
             return cCell
             
         } else {
-                let cCell = collectionView.dequeueReusableCell(withReuseIdentifier: sndOptionMenCollectionViewCell.identifier,
-                 for: indexPath) as? sndOptionMenCollectionViewCell ?? sndOptionMenCollectionViewCell()
-            cCell.setUpSecondCollectionView(categoria: SarrCategories[indexPath.row] )
-                return cCell
-            }
+            let cCell = collectionView.dequeueReusableCell(withReuseIdentifier: sndOptionMenCollectionViewCell.identifier,
+             for: indexPath) as? sndOptionMenCollectionViewCell ?? sndOptionMenCollectionViewCell()
+        cCell.setUpSecondCollectionView(categoria: SarrCategories[indexPath.row] )
+            return cCell
+        }
     }
     
     
